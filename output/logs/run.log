@@ -1,0 +1,41 @@
+2025-03-28 16:44:54,183 - 3D_Diabetic_Retinopathy - INFO - Starting pointcloud_to_mesh script
+2025-03-28 16:44:54,218 - 3D_Diabetic_Retinopathy - INFO - Logging to file: D:\output\logs\run_20250328_164454.log
+2025-03-28 16:44:54,222 - 3D_Diabetic_Retinopathy - INFO - Starting 3D reconstruction pipeline
+2025-03-28 16:44:54,222 - 3D_Diabetic_Retinopathy - INFO - Stage 1: Generating raw meshes
+2025-03-28 16:44:54,396 - 3D_Diabetic_Retinopathy - WARNING - Skipping 0: Missing depth map
+2025-03-28 16:44:54,396 - 3D_Diabetic_Retinopathy - INFO - Processing pair 1006
+2025-03-28 16:44:54,402 - 3D_Diabetic_Retinopathy - INFO - Depth range for 1006: 0 to 255
+2025-03-28 16:44:54,443 - 3D_Diabetic_Retinopathy - INFO - Initial point cloud: 159211 points
+2025-03-28 16:44:54,479 - 3D_Diabetic_Retinopathy - INFO - Saved initial point cloud to D:\3D_Stimualation\data\3D_models\1006.initial.ply
+2025-03-28 16:44:54,480 - 3D_Diabetic_Retinopathy - INFO - Points before processing: 159211 points
+2025-03-28 16:44:54,480 - 3D_Diabetic_Retinopathy - INFO - Estimating normals with radius=0.1, max_nn=100
+2025-03-28 16:45:12,096 - 3D_Diabetic_Retinopathy - INFO - Saved point cloud with normals to D:\3D_Stimualation\data\3D_models\1006.debug_normals.ply
+2025-03-28 16:45:12,097 - 3D_Diabetic_Retinopathy - INFO - Starting Poisson surface reconstruction
+2025-03-28 16:45:37,631 - 3D_Diabetic_Retinopathy - INFO - Mesh created: 381499 vertices, 762587 triangles
+2025-03-28 16:45:40,926 - 3D_Diabetic_Retinopathy - INFO - After post-processing: 377676 vertices, 753857 triangles
+2025-03-28 16:45:41,121 - 3D_Diabetic_Retinopathy - INFO - Saved final mesh to D:\3D_Stimualation\data\3D_models\1006.ply
+2025-03-28 16:45:41,287 - 3D_Diabetic_Retinopathy - WARNING - Skipping 1008: Missing depth map
+2025-03-28 16:45:41,288 - 3D_Diabetic_Retinopathy - WARNING - Skipping 100: Missing depth map
+2025-03-28 16:45:41,288 - 3D_Diabetic_Retinopathy - INFO - Processing pair 1010
+2025-03-28 16:45:41,294 - 3D_Diabetic_Retinopathy - INFO - Depth range for 1010: 0 to 255
+2025-03-28 16:45:41,303 - 3D_Diabetic_Retinopathy - INFO - Initial point cloud: 229755 points
+2025-03-28 16:45:41,352 - 3D_Diabetic_Retinopathy - INFO - Saved initial point cloud to D:\3D_Stimualation\data\3D_models\1010.initial.ply
+2025-03-28 16:45:41,353 - 3D_Diabetic_Retinopathy - INFO - Points before processing: 229755 points
+2025-03-28 16:45:41,354 - 3D_Diabetic_Retinopathy - INFO - Estimating normals with radius=0.1, max_nn=100
+2025-03-28 16:46:21,319 - 3D_Diabetic_Retinopathy - INFO - Saved point cloud with normals to D:\3D_Stimualation\data\3D_models\1010.debug_normals.ply
+2025-03-28 16:46:21,320 - 3D_Diabetic_Retinopathy - INFO - Starting Poisson surface reconstruction
+2025-03-28 16:47:04,855 - 3D_Diabetic_Retinopathy - INFO - Mesh created: 468030 vertices, 935646 triangles
+2025-03-28 16:47:09,798 - 3D_Diabetic_Retinopathy - INFO - After post-processing: 463340 vertices, 925296 triangles
+2025-03-28 16:47:10,111 - 3D_Diabetic_Retinopathy - INFO - Saved final mesh to D:\3D_Stimualation\data\3D_models\1010.ply
+2025-03-28 16:47:10,344 - 3D_Diabetic_Retinopathy - INFO - Mesh generation completed in 136.12s, processed 2 pairs
+2025-03-28 16:47:10,345 - 3D_Diabetic_Retinopathy - INFO - Stage 2: Post-processing meshes
+2025-03-28 16:47:10,346 - 3D_Diabetic_Retinopathy - INFO - Processing: 1006.ply
+2025-03-28 16:47:21,553 - 3D_Diabetic_Retinopathy - INFO - Processed: D:\3D_Stimualation\data\3D_models\refined\refined_1006.ply
+2025-03-28 16:47:21,680 - 3D_Diabetic_Retinopathy - INFO - Processing: 1010.ply
+2025-03-28 16:47:35,225 - 3D_Diabetic_Retinopathy - INFO - Processed: D:\3D_Stimualation\data\3D_models\refined\refined_1010.ply
+2025-03-28 16:47:35,350 - 3D_Diabetic_Retinopathy - INFO - Post-processed 2 meshes
+2025-03-28 16:47:35,351 - 3D_Diabetic_Retinopathy - INFO - Stage 3: Applying textures
+2025-03-28 16:47:35,649 - 3D_Diabetic_Retinopathy - ERROR - Texturing failed for D:\3D_Stimualation\data\3D_models\refined\refined_1006.ply: 'open3d.cpu.pybind.geometry.TriangleMesh' object has no attribute 'compute_triangle_uvs'
+2025-03-28 16:47:36,018 - 3D_Diabetic_Retinopathy - ERROR - Texturing failed for D:\3D_Stimualation\data\3D_models\refined\refined_1010.ply: 'open3d.cpu.pybind.geometry.TriangleMesh' object has no attribute 'compute_triangle_uvs'
+2025-03-28 16:47:36,023 - 3D_Diabetic_Retinopathy - INFO - Textured 0 meshes
+2025-03-28 16:47:36,024 - 3D_Diabetic_Retinopathy - INFO - Pipeline completed successfully!

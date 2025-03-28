@@ -1,0 +1,7 @@
+2025-03-28 17:10:35,620 - 3DExporterWithEye - INFO - Exporting and visualizing refined directory
+2025-03-28 17:10:43,336 - 3DExporterWithEye - INFO - Exported refined_1006.ply to D:\3D_Stimualation\data\3D_models\obj_refined\refined_1006.obj
+2025-03-28 17:10:52,741 - 3DExporterWithEye - INFO - Exported refined_1010.ply to D:\3D_Stimualation\data\3D_models\obj_refined\refined_1010.obj
+2025-03-28 17:10:52,767 - 3DExporterWithEye - INFO - Exporting and visualizing textured directory
+2025-03-28 17:11:00,342 - 3DExporterWithEye - INFO - Exported textured_1006.ply to D:\3D_Stimualation\data\3D_models\obj_textured\textured_1006.obj
+2025-03-28 17:11:09,635 - 3DExporterWithEye - INFO - Exported textured_1010.ply to D:\3D_Stimualation\data\3D_models\obj_textured\textured_1010.obj
+2025-03-28 17:12:55,919 - 3DExporterWithEye - INFO - Export and visualization completed

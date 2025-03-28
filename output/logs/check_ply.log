@@ -1,0 +1,31 @@
+2025-03-28 16:47:43,106 - PlyChecker - INFO - Checking refined directory
+2025-03-28 16:47:43,244 - PlyChecker - INFO - File: refined_1006.ply
+- Số đỉnh (vertices): 226672
+- Số tam giác (triangles): 452127
+- Có pháp tuyến đỉnh: True
+- Có texture: False
+- Trạng thái: OK
+
+2025-03-28 16:47:43,428 - PlyChecker - INFO - File: refined_1010.ply
+- Số đỉnh (vertices): 277972
+- Số tam giác (triangles): 554679
+- Có pháp tuyến đỉnh: True
+- Có texture: False
+- Trạng thái: OK
+
+2025-03-28 16:47:43,432 - PlyChecker - INFO - Checking textured directory
+2025-03-28 16:47:43,588 - PlyChecker - INFO - File: textured_1006.ply
+- Số đỉnh (vertices): 226668
+- Số tam giác (triangles): 452124
+- Có pháp tuyến đỉnh: True
+- Có texture: False
+- Trạng thái: OK
+
+2025-03-28 16:47:43,762 - PlyChecker - INFO - File: textured_1010.ply
+- Số đỉnh (vertices): 277972
+- Số tam giác (triangles): 554678
+- Có pháp tuyến đỉnh: True
+- Có texture: False
+- Trạng thái: OK
+
+2025-03-28 16:47:43,766 - PlyChecker - INFO - Check completed

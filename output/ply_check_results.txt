@@ -1,0 +1,30 @@
+Kiểm tra file .ply
+
+File: refined_1006.ply
+- Số đỉnh (vertices): 226672
+- Số tam giác (triangles): 452127
+- Có pháp tuyến đỉnh: True
+- Có texture: False
+- Trạng thái: OK
+
+File: refined_1010.ply
+- Số đỉnh (vertices): 277972
+- Số tam giác (triangles): 554679
+- Có pháp tuyến đỉnh: True
+- Có texture: False
+- Trạng thái: OK
+
+File: textured_1006.ply
+- Số đỉnh (vertices): 226668
+- Số tam giác (triangles): 452124
+- Có pháp tuyến đỉnh: True
+- Có texture: False
+- Trạng thái: OK
+
+File: textured_1010.ply
+- Số đỉnh (vertices): 277972
+- Số tam giác (triangles): 554678
+- Có pháp tuyến đỉnh: True
+- Có texture: False
+- Trạng thái: OK
+
